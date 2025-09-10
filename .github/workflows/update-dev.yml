@@ -1,0 +1,12 @@
+name: Merge main into dev
+
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  update-dev-branch:
+    uses: ChaosCantrip/DestinyTCG/.github/workflows/update-dev.yml@main
