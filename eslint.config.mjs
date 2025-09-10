@@ -20,6 +20,19 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  {
+    rules: {
+      "brace-style": ["warn", "allman"],
+      "quotes": ["warn", "double"],
+      "indent": ["warn", 4]
+    }
+  },
+  {
+    files: ["**/*.{mjs,mts}"],
+    rules: {
+      "indent": ["warn", 2]
+    }
+  }
 ];
 
 export default eslintConfig;
