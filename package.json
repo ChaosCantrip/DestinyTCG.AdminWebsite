@@ -1,12 +1,13 @@
 {
-  "name": "admin-website",
-  "version": "0.1.0",
+  "name": "destinytcg-admin-website",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack --port 3000",
     "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start --port 3000",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "react": "19.1.0",
@@ -21,5 +22,15 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
     "@eslint/eslintrc": "^3"
+  },
+  "homepage": "https://github.com/ChaosCantrip/DestinyTCG.AdminWebsite",
+  "bugs": {
+    "url": "https://github.com/ChaosCantrip/DestinyTCG.AdminWebsite/issues",
+    "email": "dev@chaoscantrip.com"
+  },
+  "author": "ChaosCantrip <dev@chaoscantrip.com> (https://chaoscantrip.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChaosCantrip/DestinyTCG.AdminWebsite.git"
   }
 }
