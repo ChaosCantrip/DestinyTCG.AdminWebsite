@@ -24,13 +24,13 @@ const eslintConfig = [
     rules: {
       "brace-style": ["warn", "allman"],
       "quotes": ["warn", "double"],
-      "indent": ["warn", 4]
+      "indent": ["warn", 4, { "SwitchCase": 1 }],
     }
   },
   {
     files: ["**/*.{mjs,mts}"],
     rules: {
-      "indent": ["warn", 2]
+      "indent": ["warn", 2, { "SwitchCase": 1 }]
     }
   }
 ];
