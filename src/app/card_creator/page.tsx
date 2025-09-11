@@ -1,4 +1,5 @@
-export default function CardCreatorPage() {
+export default function CardCreatorPage() 
+{
     return (
         <div>
             <h1>Card Creator Page</h1>
