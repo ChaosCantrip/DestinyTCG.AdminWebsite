@@ -29,3 +29,16 @@
     --cpcm-mantle: #181825;
     --cpcm-crust: #11111b;
 }
+
+body {
+    color: var(--cpcm-text);
+    background-color: var(--cpcm-base);
+}
+
+h2 {
+    color: var(--cpcm-subtext0);
+}
+
+h3, h4, h5, h6 {
+    color: var(--cpcm-subtext1);
+}
